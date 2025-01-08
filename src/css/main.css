@@ -313,8 +313,11 @@ body {
     background-color: #F5F5F5;
 }
 
-.header {
-    display: none; /* Suppression du menu */
+
+
+.header__index{
+    background: none;
+   
 }
 
 /* Section Importance des Casques */
