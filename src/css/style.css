@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Syne:wght@400..800&display=swap');
+
+/* Base */
+@import "/assets/components/menu.css";
+@import "/assets/components/media.css";
+
+/* Layout */
+@import "/assets/components/header.css";
+@import "/assets/components/footer.css";
+
+/* src */
+@import "/src/css/main.css";
+@import "/src/css/normalize.css";

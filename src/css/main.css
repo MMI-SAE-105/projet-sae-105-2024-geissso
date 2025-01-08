@@ -1,0 +1,116 @@
+
+.video-background {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    z-index: -1; 
+    pointer-events: none;
+    filter: blur(10px); 
+}
+
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    text-align: center;
+    color: white;
+}
+
+.helmet_arai {
+    width: 339px;
+height: 339px; 
+    margin-bottom: 20px; 
+    flex-shrink: 0;
+}
+
+.header__title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: "Bakbak One";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.button {
+    padding: 10px 30px;
+    font-family: "Syne";
+    border-radius: 25px; 
+    background: rgba(228, 154, 212, 0.2); 
+    border: 2px solid #E49AD4; 
+    color: #E49AD4; 
+    text-decoration: none; 
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.button:hover {
+    background-color: rgba(228, 154, 212, 0.5); 
+    transform: scale(1.1); 
+}
+
+.main-content {
+    background-color: #f0f0f0;
+}
+.main-content__title {
+    width: 401px;
+    color: #000;
+
+text-align: center;
+font-family: "Bakbak One";
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Image */
+.card__image-wrapper {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Contenu */
+.card__content {
+    padding: 20px;
+    font-family: 'Bakbak One', sans-serif;
+    font-size: 1rem;
+    color: #001B61;
+    background: white;
+    border-radius: 0 0 15px 15px;
+}
+
+.card__title {
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+

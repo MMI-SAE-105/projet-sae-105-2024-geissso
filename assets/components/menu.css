@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #2D0240 0%, #441460 100%);
+    color: white;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 200;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.menu-btn__icon {
+    display: inline-block;
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__icon {
+    transform: rotate(-90deg);
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background-image: url('/assets/img/MENU_bkgrd.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu[aria-hidden="false"] {
+    transform: translateX(0);
+}
+
+.menu__title {
+    color: #EBE2F3;
+    font-family: "Bakbak One";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.menu__list {
+    color: #FFF;
+    font-family: "Bakbak One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-skip-ink: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu__link {
+    display: block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu__link:hover {
+    color: #FF69B4;
+}
+
+.menu__contact {
+    margin-top: 30px;
+    font-size: 1rem;
+    text-align: center;
+}
