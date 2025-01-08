@@ -140,7 +140,7 @@ header {
     position: relative;
     width: 100%;
     height: 300px;
-    background-image: url('/assets/img/header_background.jpg'); /* Chemin vers votre image */
+    background-image: url('/assets/img/HEADER.webp'); /* Chemin vers votre image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -158,7 +158,6 @@ header {
     font-weight: bold;
     color: #0F1442;
     margin-bottom: 10px;
-    color: #090B38;
 font-family: "Bakbak One";
 font-size: 42.5px;
 font-style: normal;
@@ -303,4 +302,79 @@ line-height: normal;
     font-size: 1rem;
     color: #333;
 }
+
+/*HISTOIRE*/
+/* Styles globaux */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #F5F5F5;
+}
+
+.header {
+    display: none; /* Suppression du menu */
+}
+
+/* Section Importance des Casques */
+.histoire--h2 {
+    color: #000;
+
+/* HEADER 2 */
+font-family: "Bakbak One";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+
+.histoire-p {
+    color: #000;
+
+    /* Body */
+    font-family: Syne;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.end-line {
+    width: 80%;
+    height: 2px;
+    background-color: #0F1442;
+    margin: 20px auto;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+main p {
+    text-align: justify;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Section Histoire des Casques (Frise) */
+.histoire-frise {
+    display: block;
+    margin: 40px auto;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Ligne de séparation finale */
+.end {
+    margin: 40px auto;
+}
+
 
