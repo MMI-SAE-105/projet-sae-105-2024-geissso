@@ -6,5 +6,5 @@
 - NOM :GEISS
 - PRÉNOM :Solène
 - GROUPE :B1
-- URL du site : https://hermet.geiss-solene.fr/fr/
+- URL du site : https://hermet.geiss-solene.fr
 - URL FIGMA : https://www.figma.com/design/LpFx63IEAqumNk2bovlf0s/Maquette_Geiss_Sol%C3%A8ne?node-id=32-2&t=IaSlomtMsgaFtKeH-1
